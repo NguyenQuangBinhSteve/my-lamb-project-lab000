@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/project":{"guestpath":"/var/www/project","hostpath":"D:/allcloudproject/lab000-lamp/my-lamp-project/src","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/allcloudproject/lab000-lamp/my-lamp-project","disabled":false,"__vagrantfile":true}}}
