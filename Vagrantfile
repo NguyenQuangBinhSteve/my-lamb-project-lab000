@@ -17,4 +17,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     mkdir -p /var/www/project
   SHELL
+
+  # Chạy kịch bản cấu hình bootstrap.sh để tự động cài đăt Apache
+  config.vm.provision "shell", path: "scripts/bootstrap.sh"
 end
